@@ -1,0 +1,61 @@
+body {
+  font-family: "Jost", sans-serif !important;
+  background-color: #121212 !important;
+  color: white !important;
+  height: 100vh;
+}
+/*======= All page styling ========*/
+button {
+  background: #5268f4 !important;
+  color: white;
+  border: none;
+  padding: 8px 25px;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin-top: 15px !important;
+}
+button:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 0.25rem #5268f49d !important;
+
+  transition: 0.2s;
+}
+label {
+  margin: 5px 0;
+  display: block !important;
+}
+
+/* Header styling */
+.navbar-brand {
+  font-weight: 800;
+  color: white !important;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    flex-direction: row-reverse !important;
+  }
+}
+
+/*======== Signup page styling ==========*/
+.container-width {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.signup-body {
+  background-color: rgb(14, 13, 13);
+  padding: 20px 25px;
+  border-radius: 5px;
+  margin-top: 100px;
+}
+.error_message {
+  text-align: center;
+  margin-top: 18px;
+  color: #ce2427;
+}
+.success {
+  text-align: center;
+  margin-top: 18px;
+  color: #01b200;
+  text-decoration: none;
+}
